@@ -1,0 +1,115 @@
+.countdown-container {
+    color: #f1ffff
+}
+
+@media screen and (max-width:767px) {
+    #countdown-time {
+        transform: scale(.65)
+    }
+}
+
+.clock-container .clock-number {
+    height: 75px;
+    width: 120px;
+    font-size: 3.5rem
+}
+
+.clock-container .clock-block {
+    height: 120px
+}
+
+.clock-container .two-dots {
+    height: 38px
+}
+
+.clock-container div {
+    margin: 10px 0
+}
+
+.presale-button {
+    border: .12rem solid #8d8585;
+    color: #f1ffff
+}
+
+.presale-button:hover {
+    color: #c5cece;
+    filter: contrast(.9)
+}
+
+.bnb-form {
+    --primary-color: #d93979;
+    --text-color: #f1ffff;
+    --bg-input-button-color: #040b43;
+    --white-color: #504f4f;
+    color: var(--text-color)
+}
+
+.bnb-form .form-control,
+.bnb-form .btn {
+    background-color: transparent;
+    color: var(--text-color)
+}
+
+.bnb-form button {
+    font-size: 1.2rem
+}
+
+.bnb-form .description p,
+.bnb-form label {
+    font-size: .8rem
+}
+
+.bnb-form .title {
+    font-size: 16px
+}
+
+.bnb-form .form-content input {
+    border: .125rem solid var(--white-color);
+    border-radius: 3px;
+    height: 2.7rem;
+    transition: .3s
+}
+
+.bnb-form .form-content input:focus {
+    color: inherit
+}
+
+.bnb-form .btn-buy {
+    border: .125rem solid var(--white-color);
+    transition: .3s
+}
+
+.bnb-form .btn-claim {
+    border: .125rem solid var(--white-color);
+    border-radius: 3px;
+    transition: .3s
+}
+
+.bnb-form .btn-claim:hover,
+.bnb-form .btn-buy:hover,
+.airdrop-live .airdrop-button:hover,
+.bnb-form input:hover,
+.bnb-form input:focus {
+    filter: contrast(.85)
+}
+
+.airdrop-live .airdrop-title {
+    font-size: 24px;
+    font-weight: 600
+}
+
+.airdrop-live p {
+    margin: 0;
+    font-size: .9rem
+}
+
+.airdrop-live .trust-wallet {
+    font-size: .7rem
+}
+
+.airdrop-live .airdrop-button {
+    border: .125rem solid var(--white-color);
+    font-size: .9rem;
+    opacity: .8;
+    transition: .3s
+}
